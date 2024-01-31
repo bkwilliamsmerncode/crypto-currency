@@ -1,8 +1,14 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
+// import Exchanges from './components/Exchanges';
+// import Navbar from './components/Navbar';
+// import Homepage from './components/Homepage';
+// import News from './components/News';
+// import Cryptocurrencies from './components/Cryptocurrencies';
+// import CryptoDetails from './components/CryptoDetails';
 
-import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from "./components";
 import './App.css';
 
 const App = () => (

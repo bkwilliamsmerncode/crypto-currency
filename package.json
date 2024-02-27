@@ -1,6 +1,7 @@
 {
   "name": "crypto-currency",
   "version": "0.1.0",
+  "homepage": "https://bkwilliamsmerncode.github.io/crypto-currency",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
@@ -11,6 +12,7 @@
     "antd": "^5.13.3",
     "axios": "^1.6.7",
     "chart.js": "^4.4.1",
+    "dotenv": "^16.4.5",
     "html-react-parser": "^5.1.1",
     "millify": "^6.1.0",
     "moment": "^2.30.1",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
